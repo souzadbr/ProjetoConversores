@@ -70,7 +70,7 @@ class ViewController: UIViewController {
                 calcDistance()
         }
         view.endEditing(true)
-        let result = Double (tfValue.text!)!
+        let result = Double (lbResult.text!)!
         lbResult.text = String (format: "%.2f", result)
     }
     
